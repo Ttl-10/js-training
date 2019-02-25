@@ -11,10 +11,12 @@
 
 // Your code :
 function abs (x){
+  if (x===0)
+    return 0
   if (x>0)
     return (x)
   else {
-    return x * -1;
+    return (-x)
   }
 }
 //* Begin of tests
